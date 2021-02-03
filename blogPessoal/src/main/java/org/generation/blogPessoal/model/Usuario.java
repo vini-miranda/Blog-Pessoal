@@ -22,7 +22,7 @@ public class Usuario {
 	
 	@NotNull
 	@Size(min = 5, max = 200)
-	private String email;
+	private String usuario;
 	
 	@NotNull
 	@Size(min = 5)
@@ -47,20 +47,20 @@ public class Usuario {
 		this.nome = nome;
 	}
 
-	public String getEmail() {
-		return email;
-	}
-
-	public void setEmail(String email) {
-		this.email = email;
-	}
-
 	public String getSenha() {
 		return senha;
 	}
 
 	public void setSenha(String senha) {
 		this.senha = senha;
+	}
+
+	public String getUsuario() {
+		return usuario;
+	}
+
+	public void setUsuario(String usuario) {
+		this.usuario = usuario;
 	}
 	
 	
